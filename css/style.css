@@ -1,0 +1,167 @@
+/* FONTS
+  font-family: 'Tahoma';   font-weight: bold; font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;   font-weight: normal;
+   font-family: 'Verdana'; font-weight: normal; font-weight: bold;
+   font-family: 'Roboto', sans-serif;  font-weight: 400;
+
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+.container {
+  max-width: 664px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+/*----------------------------------------------------------------------------- HEADER */
+.header {
+  background-color: #08b7f4;
+  width: 660px;
+  margin: 0 auto;
+}
+.header__top-text {
+  z-index: 15;
+  font-family: 'Verdana';
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 27px;
+  color: #ffffff;
+  max-width: 369px;
+  padding-top: 30px;
+  position: relative;
+}
+.header__top-text::before {
+  content: url(../img/quotes-left.png);
+}
+.header__top-text::after {
+  content: url(../img/quotes-right.png);
+  position: absolute;
+  transform: translate(112px, 12px);
+  right: 249px;
+}
+.header__top {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  width: 179px;
+}
+.spanlogo {
+  padding-top: 37px;
+}
+.spanlogo::before {
+  content: url(../img/ellipse1.svg);
+  position: absolute;
+  transform: translate(-57px, -37px);
+}
+.spanlogo::after {
+  content: url(../img/ellipse2.svg);
+  position: absolute;
+  transform: translate(-24px, 117px);
+}
+.header__bottom {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.header__bottom-text {
+  position: relative;
+  padding-top: 132px;
+  padding-bottom: 26px;
+  z-index: 14;
+}
+.header__bottom-text::before {
+  content: url(../img/ellipse3.svg);
+  position: absolute;
+  transform: translate(-41px, -61px);
+}
+.header__bottom-title {
+  font-family: Verdana;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  line-height: 19px;
+  color: #ffffff;
+}
+.header__bottom-p {
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+  padding-top: 5px;
+  max-width: 156px;
+}
+.man {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+/*----------------------------------------------------------------------------- description */
+
+.main {
+  background-color: #ffffff;
+  font-family: 'Tahoma';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(29, 28, 31, 0.7);
+}
+.description {
+  padding: 60px 0 80px;
+}
+
+/*----------------------------------------------------------------------------- duties */
+.duties__title,
+.requirements__title,
+.terms__title {
+  font-family: Tahoma;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 29px;
+  line-height: 37px;
+  color: #08b7f4;
+  margin-bottom: 30px;
+}
+.duties,
+.requirements,
+.terms {
+  margin-bottom: 80px;
+}
+.duties__list li,
+.requirements li,
+.terms li {
+  margin-top: 30px;
+}
+.duties__list li::before,
+.requirements__list li::before,
+.terms__list li::before {
+  content: url(../img/li.png);
+}
+.video {
+  text-align: center;
+}
+.footer__block {
+  background-color: #08b7f4;
+}
+.footer__text {
+  text-align: center;
+  padding: 30px 0px;
+  font-family: 'Tahoma';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  color: rgba(255, 255, 255, 0.5);
+}
