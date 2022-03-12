@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'Tahoma';
+  src: url('Tahoma-Bold.eot');
+  src: local('Tahoma Bold'), local('Tahoma-Bold'),
+    url(../fonts/Tahoma-Bold.eot) format('embedded-opentype'),
+    url(../fonts/Tahoma-Bold.woff2) format('woff2'),
+    url(../fonts/Tahoma-Bold.woff) format('woff'),
+    url(../fonts/Tahoma-Bold.ttf) format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Tahoma';
+  src: url('Tahoma.eot');
+  src: local('Tahoma'), url(../fonts/Tahoma.eot) format('embedded-opentype'),
+    url(../fonts/Tahoma.woff2) format('woff2'),
+    url(../fonts/Tahoma.woff) format('woff'),
+    url(../fonts/Tahoma.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Verdana';
+  src: url('Verdana.eot');
+  src: local('Verdana'), url(../fonts/Verdana.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Verdana';
+  src: url('Verdana-Bold.eot');
+  src: local('Verdana Bold'), url(../fonts/Verdana-Bold.ttf) format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Verdana';
+  src: url('Verdana-Bolditalic.eot');
+  src: local('Verdana BoldItalic'),
+    url(../fonts/Verdana-BoldItalic.ttf) format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Verdana';
+  src: url('Verdana-Italic.eot');
+  src: local('Verdana Italic'),
+    url(../fonts/Verdana-Italic.ttf) format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
